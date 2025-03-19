@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && prisma db push && next build",
+    "build": "npx prisma generate && npx prisma db push && next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate"
+    "postinstall": "npx prisma generate"
   },
   "keywords": [
     "trading",
@@ -42,6 +42,7 @@
     "@tailwindcss/forms": "^0.5.7",
     "eslint": "^8.55.0",
     "eslint-config-next": "^14.0.3",
-    "prettier": "^3.1.0"
+    "prettier": "^3.1.0",
+    "prisma": "^6.5.0"
   }
 }
