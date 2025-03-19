@@ -64,6 +64,13 @@ npm run dev
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Ftrading-signals)
 
+### 部署注意事项
+
+- 确保在Vercel上配置所有必要的环境变量
+- 数据库连接字符串需要包含`?sslmode=require`参数
+- 首次部署时会自动执行数据库迁移
+- 建议使用Vercel集成的PostgreSQL数据库或Supabase
+
 ## 许可证
 
 [MIT](LICENSE) 
